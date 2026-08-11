@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Inter;
+  src: url("../assets/fonts/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("../assets/fonts/Inter_18pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url("../assets/fonts/Inter_18pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url("../assets/fonts/Inter_18pt-Medium.ttf");
+}
+
+@theme {
+  /** Fonts **/
+  --font-inter: Inter, "sans-serif";
+  --font-inter-bold: Inter-Bold, "sans-serif";
+  --font-inter-semibold: Inter-SemiBold, "sans-serif";
+  --font-inter-medium: Inter-Medium, "sans-serif";
+
+  /** Colors **/
+
+  /* Green */
+  --color-primary-green-50: #bdffde;
+  --color-primary-green-100: #00f2ab;
+  --color-primary-green-200: #00c68b;
+  --color-primary-green-300: #009c6c;
+  --color-primary-green-400: #00734F; /* default */
+  --color-primary-green-500: #004d34;
+  --color-primary-green-600: #002a1a;
+
+  /* Purple */
+  --color-primary-purple-50: #ebe5fa;
+  --color-primary-purple-100: #cab7f2;
+  --color-primary-purple-200: #ab88ea;
+  --color-primary-purple-300: #8f55df;
+  --color-primary-purple-400: #6b30b2;
+  --color-primary-purple-500: #421B71; /* default */
+  --color-primary-purple-600: #1d0836;
+
+  /* Orange */
+  --color-primary-orange-50: #fae4da;
+  --color-primary-orange-100: #f3b28b;
+  --color-primary-orange-200: #D68749; /* default */
+  --color-primary-orange-300: #a46636;
+  --color-primary-orange-400: #754724;
+  --color-primary-orange-500: #482a13; 
+  --color-primary-orange-600: #201005;
+
+  /* Red */
+  --color-primary-red-50: #ffedec;
+  --color-primary-red-100: #ffb9b5;
+  --color-primary-red-200: #ff7c71;
+  --color-primary-red-300: #ee3600; /* default */
+  --color-primary-red-400: #af2500;
+  --color-primary-red-500: #af2500; 
+  --color-primary-red-600: #3d0700;
+}
