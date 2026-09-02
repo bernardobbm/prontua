@@ -1,15 +1,15 @@
-import { Outlet, createRootRoute } from '@tanstack/react-router';
-import * as React from 'react';
+import { HeadContent, Outlet, createRootRoute } from '@tanstack/react-router';
 
 export const Route = createRootRoute({
   component: RootComponent,
+  notFoundComponent: () => <div>404 Not Found</div>,
 });
 
 function RootComponent() {
   return (
-    <React.Fragment>
-      <div>Hello "__root"!</div>
+    <>
+      <HeadContent />
       <Outlet />
-    </React.Fragment>
+    </>
   );
 }
