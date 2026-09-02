@@ -36,6 +36,7 @@ export default defineConfig([
           jsxSingleQuote: true,
         },
       ],
+      'react-refresh/only-export-components': 'off',
     },
   },
 ]);
