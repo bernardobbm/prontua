@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@prontua/tsconfig/app.json",
+    "@prontua/tsconfig/node.json"
+  ]
+}

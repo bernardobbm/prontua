@@ -1,0 +1,44 @@
+{
+  "name": "@prontua/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.5.7",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tanstack/react-router": "^1.170.18",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-hook-form": "^7.83.0",
+    "tailwind-variants": "^3.3.1",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@prontua/eslint-config": "workspace:*",
+    "@prontua/prettier": "workspace:*",
+    "@prontua/tsconfig": "workspace:*",
+    "@tanstack/router-plugin": "^1.168.23",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.1.1",
+    "vite-plugin-svgr": "^5.2.0"
+  },
+  "prettier": "@prontua/prettier",
+  "eslintConfig": {
+    "extends": [
+      "@prontua/eslint-config/vite"
+    ]
+  }
+}
