@@ -21,8 +21,6 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@prontua/eslint-config": "workspace:*",
-    "@prontua/prettier": "workspace:*",
     "@prontua/tsconfig": "workspace:*",
     "@tanstack/router-plugin": "^1.168.23",
     "@types/node": "^24.13.2",
