@@ -1,6 +1,9 @@
 {
   "extends": [
-    "@prontua/tsconfig/app.json",
-    "@prontua/tsconfig/node.json"
+    "@prontua/tsconfig/vite.app.json",
+    "@prontua/tsconfig/vite.node.json"
+  ],
+  "include": [
+    "src"
   ]
 }

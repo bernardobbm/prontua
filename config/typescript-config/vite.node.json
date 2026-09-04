@@ -2,14 +2,15 @@
   "compilerOptions": {
     "target": "es2023",
     "lib": [
-      "ES2023"
+      "ES2023",
+      "DOM"
     ],
     "types": [
       "node"
     ],
     "skipLibCheck": true,
 
-    "module": "nodenext",
+    "module": "esnext",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
